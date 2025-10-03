@@ -18,7 +18,7 @@ public class CallerStarter {
 
     @GetMapping("/nexus")
     public String nexusStarter() {
-        String apikey = "eyJhbGciOiJFUzI1NiIsImtpZCI6Ild2dHdhQSJ9.eyJhY2NvdW50X2lkIjoiY3JrMGkiLCJhdWQiOlsidGVtcG9yYWwuaW8iXSwiZXhwIjoxODIyMjA5ODE5LCJpc3MiOiJ0ZW1wb3JhbC5pbyIsImp0aSI6InBKdHlzeEFDY0FOREQzTzF5aDNkaWNnQkVCeHVScjJHIiwia2V5X2lkIjoicEp0eXN4QUNjQU5ERDNPMXloM2RpY2dCRUJ4dVJyMkciLCJzdWIiOiJjZjRhMTUzMDA3MTg0MDljOWRiOTZkZDZhMDFmNWVlNSJ9.KdCx1Note3GqEfBAv5QYA19V97Y1B0hNG-aNH-g7DGamfC4CmdB4OMc5rikITlvr0Fh557CHMjNBfJM0VdcNzw";
+        String apikey = "";
 
         WorkflowServiceStubs service =
                 WorkflowServiceStubs.newServiceStubs(
