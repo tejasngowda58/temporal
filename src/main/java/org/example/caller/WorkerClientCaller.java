@@ -15,7 +15,7 @@ public class WorkerClientCaller {
 
     @GetMapping("/hello")
     public String helloWorldWF(){
-        String apikey = "eyJhbGciOiJFUzI1NiIsImtpZCI6Ild2dHdhQSJ9.eyJhY2NvdW50X2lkIjoiY3JrMGkiLCJhdWQiOlsidGVtcG9yYWwuaW8iXSwiZXhwIjoxODIxOTc5NjMwLCJpc3MiOiJ0ZW1wb3JhbC5pbyIsImp0aSI6ImRDUHlLeEFSc3kyZ1FNZjJubG9ocWlpVGpVWGVKN0toIiwia2V5X2lkIjoiZENQeUt4QVJzeTJnUU1mMm5sb2hxaWlUalVYZUo3S2giLCJzdWIiOiJjZjRhMTUzMDA3MTg0MDljOWRiOTZkZDZhMDFmNWVlNSJ9.q6ofwU9Yp9VWMli3HhA8xm1k0FTGZZ60yPm5HyRoNUbPbolwDFkF4uJCtonrKYSy20FFWSVodQ322057xz_lZw";
+        String apikey = "";
         // Initialize client connection
         WorkflowServiceStubs service =
                 WorkflowServiceStubs.newServiceStubs(
